@@ -1,0 +1,76 @@
+    /* css-reset */
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    /* .logo */
+    /* navbar */
+    
+    #navbar {
+        position: sticky;
+        top: 0%;
+        padding: 13px;
+    }
+    
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    #navbar ul {
+        display: flex;
+    }
+    
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    
+    #navbar ul li a {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+    /* Section- Home */
+    
+    .container {
+        background-color: wheat;
+        height: 560px;
+    }
+    
+    .section-1 {
+        position: relative;
+        text-align: center;
+    }
+    
+    .centered {
+        position: relative;
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+        padding-top: 22px;
+    }
+    
+    .centerpara {
+        line-height: 1.5rem;
+        font-weight: bold;
+        padding-right: 122px;
+        padding-left: 122px;
+        padding-top: 40px;
+    }
+    /* Section- About Us */

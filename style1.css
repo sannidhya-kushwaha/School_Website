@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar1 {
+    /* display: flex; */
+    /* align-items: center; */
+    top: 0px;
+    position: sticky;
+    padding: 20px;
+}
+
+#navbar1::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar1 ul {
+    display: flex;
+}
+
+#navbar1 ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar1 ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar1 ul li a:hover {
+    color: black;
+    background-color: white;
+}
